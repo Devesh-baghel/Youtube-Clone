@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practice CSS position</title>
+</head>
+
+<body style="padding-bottom: 2000px;padding-top: 60px;padding-left: 80px;">
+    <div style="background-color: black;
+        color: white;position: fixed;
+        top: 0;left: 0;right: 0;height: 40px;
+        z-index: 100;">  <!--defualt z inex is 0 the element which have higher z index will go above other element with lower z index-->
+        header</div>
+    <div style="background-color: green;color:wheat;
+    position: fixed;
+    left: 0;bottom: 0;top: 50px;width: 70px;">
+        sidebar
+    </div>
+    <div style="position: absolute;
+       background-color: red;
+       color: white;
+       top: 200px;
+       left: 230px;"> absolute</div><!-- absolute used to make element on the above of page and when scroll it also scrolls,fixed is for elements fixed on browser window when scroll it dont scrolls-->
+    <div style="background-color: lightblue;
+        height: 200px;width: 200px;
+        position: static;">
+        div1 </div>
+    <div style="background-color: lightpink;
+        height: 200px;
+        width: 200px;">div 2</div>
+
+</body>
+
+</html>
